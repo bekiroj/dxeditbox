@@ -32,7 +32,7 @@ end
 function editbox:write(character)
 	self = editbox;
 	self.text = ''..self.text..''..character
-    self.char = string.len(self.text)+1
+    	self.char = string.len(self.text)+1
 end
 
 function editbox:delete()
